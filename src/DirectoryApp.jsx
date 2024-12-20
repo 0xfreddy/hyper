@@ -639,14 +639,13 @@ const DirectoryApp = () => {
   };
 
   const handleTouchEnd = () => {
-    draggedNodeRef.current = null; // Clear the dragged node
+    draggedNodeRef.current = null;
   };
 
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    // Add touch event listeners
     canvas.addEventListener("touchstart", handleTouchStart);
     canvas.addEventListener("touchmove", handleTouchMove);
     canvas.addEventListener("touchend", handleTouchEnd);
