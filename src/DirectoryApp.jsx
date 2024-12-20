@@ -407,7 +407,7 @@ const tags = [
     const maxConnections = Math.max(...Object.values(tagConnections));
 
     const isMobile = window.innerWidth < 768;
-    const mobileSizeMultiplier = isMobile ? 1.5 : 1;
+    const mobileSizeMultiplier = isMobile ? 2 : 1;
 
     tags.forEach((tag, i) => {
       const angle = (i * 2 * Math.PI) / tags.length;
@@ -901,17 +901,17 @@ const tags = [
         </button>
       </div>
 
-      <div className="w-full mx-auto p-6 space-y-8 md:space-y-0 flex-grow flex flex-col md:grid md:grid-cols-2 space-x-8">
+      <div className="w-full mx-auto p-6 space-y-8 md:space-y-0 flex-grow flex flex-col md:grid md:grid-cols-2 md:space-x-8">
         <div
-          className={`rounded-lg shadow-xl w-full ${
+          className={`rounded-lg md:shadow-xl w-full ${
             activeView !== "canvas" ? "hidden md:block" : ""
           }`}
         >
           <canvas
             ref={canvasRef}
             width={800}
-            height={600}
-            className="w-full cursor-pointer bg-hero-pattern bg-cover rounded-xl bg-center bg-no-repeat"
+            height={window.innerWidth < 768 ? 1000 : 600}
+            className="w-full cursor-pointer md:bg-hero-pattern md:bg-cover rounded-xl md:bg-center md:bg-no-repeat bg-transparent"
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
             onMouseUp={handleMouseUp}
