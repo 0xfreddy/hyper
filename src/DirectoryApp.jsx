@@ -149,9 +149,162 @@ const DirectoryApp = () => {
       twitter: "https://x.com/HypurrScan",
       logo: "/images/logos/hypurrscan-logo.png",
     },
-  ];
-
-  const tags = [
+    {
+      id: 20,
+      name: "DeFi LLama",
+      tags: ["Analytics", "Data"],
+      twitter: "https://x.com/DefiLlama",
+      logo: "/images/logos/defillama-logo.png",
+    },
+    {
+      id: 21,
+      name: "Hyperliquid Staking",
+      tags: ["Staking", "Defi"],
+      twitter: "https://x.com/HyperliquidX",
+      logo: "/images/logos/hyperliquid-logo.png",
+    },
+    {
+      id: 22,
+      name: "Hyperbeat",
+      tags: ["Infra"],
+      twitter: "https://x.com/degennquant",
+      logo: "/images/logos/hyperbeat-logo.png",
+    },
+    {
+      id: 23,
+      name: "Liquid Start",
+      tags: ["Trading"],
+      twitter: "https://x.com/Liquid_Start",
+      logo: "/images/logos/liquidstart-logo.png",
+    },
+    {
+      id: 24,
+      name: "Rage Trade",
+      tags: ["Trading"],
+      twitter: "https://x.com/rage_trade",
+      logo: "/images/logos/rage-trade.png",
+    },
+    {
+      id: 25,
+      name: "Hypurr Finance",
+      tags: ["Defi"],
+      twitter: "",
+      logo: "/images/logos/hypurrfi-logo.png",
+    },
+    {
+      id: 26,
+      name: "Hyperstats",
+      tags: ["Analytics", "Data"],
+      twitter: "https://x.com/hyperstats_xyz",
+      logo: "/images/logos/hyperstats-logo.png",
+    },
+    {
+      id: 27,
+      name: "VegasHL",
+      tags: ["GambleFi"],
+      twitter: "https://x.com/vegas_hl",
+      logo: "/images/logos/vegashl-logo.png",
+    },
+    {
+      id: 28,
+      name: "Hypervisor",
+      tags: ["Data", "Analytics"],
+      twitter: "https://x.com/Hypervisor_hl",
+      logo: "/images/logos/hypervisor-logo.png",
+    },
+    {
+      id: 29,
+      name: "Harmonix Finance",
+      tags: ["Yield", "Defi"],
+      twitter: "https://x.com/harmonixfi",
+      logo: "/images/logos/harmonix-logo.png",
+    },
+    {
+      id: 30,
+      name: "RNDM",
+      tags: ["Defi"],
+      twitter: "https://x.com/RNDM_IO",
+      logo: "/images/logos/rndm-logo.png",
+    },
+    {
+      id: 31,
+      name: "MIM Spell",
+      tags: ["Yield", "Defi"],
+      twitter: "https://x.com/mim_spell",
+      logo: "/images/logos/mim-logo.png",
+    },
+    {
+      id: 32,
+      name: "Nucleus Earn",
+      tags: ["Yield", "Defi"],
+      twitter: "https://x.com/nucleusearn",
+      logo: "/images/logos/nucleus-logo.png",
+    },
+    {
+      id: 33,
+      name: "Thunder Labs",
+      tags: ["LST", "Staking"],
+      twitter: "https://x.com/ThunderheadLabs",
+      logo: "/images/logos/thunderlabs-logo.png",
+    },
+    {
+      id: 34,
+      name: "KittenSwap",
+      tags: ["Defi", "Trading"],
+      twitter: "https://x.com/kittenswaphype",
+      logo: "/images/logos/kittenswap-logo.png",
+    },
+    {
+      id: 35,
+      name: "Hyperterminal",
+      tags: ["Analytics", "Trading"],
+      twitter: "https://x.com/hyterminal",
+      logo: "/images/logos/hyperterminal-logo.png",
+    },
+    {
+      id: 36,
+      name: "HyperScanner",
+      tags: ["Analytics", "Explorer"],
+      twitter: "https://x.com/hyper_scanner",
+      logo: "/images/logos/hyperscanner-png.png",
+    },
+    {
+      id: 37,
+      name: "Pyth",
+      tags: ["Oracle", "Infra"],
+      twitter: "https://x.com/PythNetwork",
+      logo: "/images/logos/pyth-logo.png",
+    },
+    {
+      id: 38,
+      name: "StorkOracle",
+      tags: ["Oracle", "Infra"],
+      twitter: "https://x.com/StorkOracle",
+      logo: "/images/logos/storkoracle-logo.png",
+    },
+    {
+      id: 39,
+      name: "Mypurrfolio",
+      tags: ["Analytics", "Data"],
+      twitter: "https://x.com/mypurrfolio",
+      logo: "/images/logos/mypurrfolio-logo.png",
+    },
+    {
+      id: 40,
+      name: "Insilico Terminal",
+      tags: ["Trading", "Analytics"],
+      twitter: "https://x.com/InsilicoTrading",
+      logo: "/images/logos/insilico-logo.png",
+    },
+    {
+      id: 41,
+      name: "Redstone",
+      tags: ["Oracle", "Infra"],
+      twitter: "https://x.com/redstone_defi",
+      logo: "/images/logos/redstone-logo.png",
+    }
+]
+const tags = [
     "Defi",
     "meme",
     "Staking",
@@ -160,8 +313,12 @@ const DirectoryApp = () => {
     "Social",
     "Data",
     "Explorer",
-  ];
-
+    "Analytics",
+    "GambleFi",
+    "Yield",
+    "LST",
+    "Oracle"
+];
   const articles = [
     {
       title:
